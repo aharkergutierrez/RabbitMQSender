@@ -1,7 +1,7 @@
 # RabbitMQSender
 Este proyecto es el que envia los mensajes a una cola de mensajes en RabbitMQ
 
-Este proyecto ha sido desarrollado para ejecutar con jre 8
+Este proyecto ha sido desarrollado para ejecutar con jre 8, compilado con el jdk 8, el local probado con jdk1.8.0_65
 Gestionando el ciclo de compilacion, empaquetado y test (No tiene JUnit implementado pero lo soportaria) con maven 4.0
 Se encuentra implementado con Spring boot y spring mvc para la exposicion de servicios rest que dejan los mensajes como string en la cola de mensajes
 Parametrizando tanto el puerto de publicacion de los servicios rest, la ip del servidor de rabbitMQ y el mombre de la cola de mensajes mediante el archivo application.properties

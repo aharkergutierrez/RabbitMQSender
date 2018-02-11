@@ -1,4 +1,4 @@
-package harker.gutierrez.andres.ejemplopropiospringbootmaven;
+package harker.gutierrez.andres.senderrabbitmqspring;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
